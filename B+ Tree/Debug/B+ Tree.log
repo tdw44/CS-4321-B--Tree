@@ -1,0 +1,35 @@
+﻿Build started 10/14/2011 9:41:02 PM.
+     1>Project "C:\Users\bsowell\Desktop\B+ Tree\B+ Tree\B+ Tree.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\B+ Tree.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp
+         main.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bsowell\Desktop\B+ Tree\Debug\B+ Tree.exe" /NOLOGO /LIBPATH:lib BufferManager.lib SpaceManager.lib GlobalDefs.lib /MANIFEST /ManifestFile:"Debug\B+ Tree.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\bsowell\Desktop\B+ Tree\Debug\B+ Tree.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\bsowell\Desktop\B+ Tree\Debug\B+ Tree.lib" /MACHINE:X86 Debug\BTreeFile.obj
+         Debug\BTreeFileScan.obj
+         Debug\BTreeTest.obj
+         Debug\InteractiveBTreeTest.obj
+         Debug\main.obj
+         Debug\ResizableRecordPage.obj
+     1>BufferManager.lib(bufmgr.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'BufferManager.lib(bufmgr.obj)' or at 'C:\Users\bsowell\Desktop\B+ Tree\Debug\vc100.pdb'; linking object as if no debug info
+     1>BufferManager.lib(clockframe.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'BufferManager.lib(clockframe.obj)' or at 'C:\Users\bsowell\Desktop\B+ Tree\Debug\vc100.pdb'; linking object as if no debug info
+     1>BufferManager.lib(frame.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'BufferManager.lib(frame.obj)' or at 'C:\Users\bsowell\Desktop\B+ Tree\Debug\vc100.pdb'; linking object as if no debug info
+     1>BufferManager.lib(hash.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'BufferManager.lib(hash.obj)' or at 'C:\Users\bsowell\Desktop\B+ Tree\Debug\vc100.pdb'; linking object as if no debug info
+     1>BufferManager.lib(replacer.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'BufferManager.lib(replacer.obj)' or at 'C:\Users\bsowell\Desktop\B+ Tree\Debug\vc100.pdb'; linking object as if no debug info
+     1>SpaceManager.lib(db.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SpaceManager.lib(db.obj)' or at 'C:\Users\bsowell\Desktop\B+ Tree\Debug\vc100.pdb'; linking object as if no debug info
+     1>SpaceManager.lib(heappage.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SpaceManager.lib(heappage.obj)' or at 'C:\Users\bsowell\Desktop\B+ Tree\Debug\vc100.pdb'; linking object as if no debug info
+     1>SpaceManager.lib(page.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SpaceManager.lib(page.obj)' or at 'C:\Users\bsowell\Desktop\B+ Tree\Debug\vc100.pdb'; linking object as if no debug info
+     1>GlobalDefs.lib(new_error.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'GlobalDefs.lib(new_error.obj)' or at 'C:\Users\bsowell\Desktop\B+ Tree\Debug\vc100.pdb'; linking object as if no debug info
+     1>GlobalDefs.lib(system_defs.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'GlobalDefs.lib(system_defs.obj)' or at 'C:\Users\bsowell\Desktop\B+ Tree\Debug\vc100.pdb'; linking object as if no debug info
+         B+ Tree.vcxproj -> C:\Users\bsowell\Desktop\B+ Tree\Debug\B+ Tree.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\bsowell\Desktop\B+ Tree\Debug\B+ Tree.exe;#1" /manifest "Debug\B+ Tree.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\B+ Tree.unsuccessfulbuild".
+         Touching "Debug\B+ Tree.lastbuildstate".
+     1>Done Building Project "C:\Users\bsowell\Desktop\B+ Tree\B+ Tree\B+ Tree.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.15
